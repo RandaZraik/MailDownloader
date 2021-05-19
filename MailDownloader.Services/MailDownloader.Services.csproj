@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MailDownloader.Domain\MailDownloader.Domain.csproj" />
+    <ProjectReference Include="..\MailDownloader.Mail\MailDownloader.Mail.csproj" />
+  </ItemGroup>
+
+</Project>
